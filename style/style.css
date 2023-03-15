@@ -11,7 +11,7 @@ html, body {
     background-color: black;
 }
 body{
-    background:url(../imagens/fundo.avif) no-repeat center;
+    background:url(../imagens/fondo0044.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -36,9 +36,18 @@ iframe#tela{
     width: 269px;
     height: 471px;
 }
+section#redes-networking{
+    text-align: right;
+}
 section#redes-networking > a > img {
     width: 50px;
     margin: 10px;
     border-radius: 50%;
     box-shadow: 5px 4px 6px black;
+    box-sizing: border-box;
+}
+section#redes-networking img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.616);
+    transform: translate(5px, 5px);
+    transition: transform .4s;
 }
